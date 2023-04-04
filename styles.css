@@ -1,0 +1,82 @@
+body {
+    background-image: url("img/education-g277d603a7_1920.jpg");
+    background-color: #cccccc;
+    object-fit: cover;
+    overflow: hidden;
+   }
+
+.container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+.quiz-card {
+    width: 30rem;
+}
+
+.question-footer {
+    border-top: 1px solid rgba(0,0,0,0.4);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 12px;
+}
+
+.question-card:hover {
+  cursor: pointer;
+  background-color: rgba(0,0,0,0.05);
+}
+
+.bg-success {
+    color: white;
+}
+
+.bg-danger {
+    color: white;
+}
+
+.text-center {
+    text-align: center;
+    font-size: 25px;
+    padding: 5px;
+}
+
+.text-center-text {
+    text-align: center;
+    font-size: 20px;
+}
+
+.width-100 {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.baground-img {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    object-fit: cover;
+}
+
+.img-quiz {
+    height: 30vh;
+}
+
+.button-row {
+    display: flex;
+    justify-content: center;
+    margin-top: 24px;
+}
+
+@media (max-width: 600px) {
+
+    .mobile {
+        display: flex;
+        height: 100%;
+
+    }
+}
+
